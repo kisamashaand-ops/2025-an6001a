@@ -8,17 +8,15 @@
     <!-- Main content of the webpage starts here -->
     <div class="container">
         <!-- A heading to welcome users to the web application -->
-        <h2>Welcome to AN6001 AI WebApp</h2>
+        <h2>Main</h2>
         <!-- A form that collects user input and sends it to the server -->
         <!-- action="/" means the form data will be sent to the root URL -->
         <!-- method="post" means the data will be sent securely via POST -->
-        <form action="/main" method="post">
-            <p>Please enter your name: </p>
-            <!-- name="q" is the key used to send the input value to the server -->
-            <input type="text" name="q">
-            <!-- Submit button to send the form data -->
-            <!-- value="Enter" is the text displayed on the button -->
-            <input type="submit" value="Enter">
+        <form action="/dbs" method="post">
+            <input type="submit" value="DBS share prediction">
+        </form>
+        <form action="/" method="post">
+            <input type="submit" value="Logout">
         </form>
     </div>
 </body>
